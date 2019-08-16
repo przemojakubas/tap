@@ -1,3 +1,3 @@
-*{margin:0}body{display:flex;justify-content:center;align-items:center;height:100vh;background:#555}h1{font-size:4rem;color:gold}
+*{margin:0;box-sizing:border-box}body{height:100vh;background:#555}h1{font-size:4rem;color:gold}.head{width:100%;background:#fff;text-align:center;padding:2rem}.par{width:100%;background:#2a0492;text-align:center;padding:8rem 16rem;color:#fff;line-height:2}
 
 /*# sourceMappingURL=style.min.css.map */

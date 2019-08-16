@@ -1,10 +1,8 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: #555;
 }
@@ -12,4 +10,20 @@ body {
 h1 {
     font-size: 4rem;
     color: gold;
+}
+
+.head {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.par {
+    width: 100%;
+    background: rgb(42, 4, 146);
+    text-align: center;
+    padding: 8rem 16rem;
+    color: #fff;
+    line-height: 2;
 }
