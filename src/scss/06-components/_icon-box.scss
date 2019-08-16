@@ -1,0 +1,20 @@
+.c-icon-box {
+    text-align: center;
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        /** Najwyzsza ikona ma taka wysokosc **/
+        height: $grid-base * 6;
+        margin-bottom: $grid-base * 2.5;
+    }
+
+    &__icon {
+        align-self: center;
+    }
+
+    &__text {
+        font-size: $font-size-6;
+        margin-top: $grid-base * 1.5;
+    }
+}
