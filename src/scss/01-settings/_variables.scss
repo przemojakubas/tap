@@ -1,31 +1,28 @@
 // Kolory
 $white: #FFFFFF;
 $black: #000000;
-$gray-light: #F9FBFE;
-$gray-dark: #444444;
-$blue-dark: #3E5CC5;
-$blue-light: #D3EAFA;
-$blue-text: #3B99E1;
-$green: #60DC64;
-
-$blue-gradient: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
+$primary-color: #3c78ff;
+$secondary-color: #F9FBFE;
+$gray-dark: #222222;
+$gray-light: #555555;
 
 // Tekst
 $font-size-base: 1rem;
-$font-size-1: $font-size-base * 3; // ~48px
-$font-size-2: $font-size-base * 1.5; // ~24px
-$font-size-3: $font-size-base * 1.125; // ~18px
-$font-size-4: $font-size-base * 1; // ~16px
-$font-size-5: $font-size-base * .875; // ~14px
-$font-size-6: $font-size-base * .75; // ~12px
-$font-size-7: $font-size-base * .625; // ~10px
+$font-size-1: $font-size-base * 4;
+$font-size-2: $font-size-base * 2.8;
+$font-size-3: $font-size-base * 2;
+$font-size-4: $font-size-base * 1.6;
+$font-size-5: $font-size-base * 1.5;
+$font-size-6: $font-size-base * 1.3;
 
-$line-height-base: 1.5;
-$line-height-sm: 1.2;
-$line-height-lg: 1.8;
+$line-height-base: 1;
+$line-height-sm: 1.75;
+$line-height-lg: 2;
+
+$primary-font: 'Rubik';   
 
 // Siatka
-$grid-base: 10px;
+$grid-base: 1rem;
 $gutter: $grid-base * 1.5;
 
 // Zaokroglenia
