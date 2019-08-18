@@ -1,5 +1,5 @@
 .t-post-list {
-    background-color: $gray-light;
+    background-color: red;
     padding-top: $grid-base * 4;
     position: relative;
 
@@ -11,7 +11,7 @@
         padding-bottom: $grid-base * 4;
 
         @include large-up {
-            background-color: $gray-light;
+            background-color: red;
             clip-path: ellipse(68% 450px at 50% 0);
             position: absolute;
             left: 0;
@@ -36,7 +36,7 @@
     }
 
     &__badge {
-        background: $blue-gradient;
+        background: red;
         border-radius: $border-radius 0 0 $border-radius;
         color: $white;
         font-size: $font-size-5;
